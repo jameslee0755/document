@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html><head lang="zh-CN">
+    <meta charset="UTF-8">
+    <title>使用说明</title>
+    <meta name="viewport" content=" initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <style>
+        body,h2,ul,li{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            word-wrap: break-word;
+        }
+        ul{
+            list-style: none;
+        }
+        .article__list{
+            padding: 20px 12px 40px;
+            line-height: 1.8;
+        }
+        .article__item{
+            margin-bottom: 40px;
+        }
+        .article__title{
+            font-size: 16px;
+            font-weight: normal;
+            color: #000000;
+        }
+        .article__content{
+            font-size: 14px;
+            color: #888888;
+            margin-left: 32px;
+        }
+        .article__detail-list{
+        }
+        .article__detail-item{
+            margin-bottom: 32px;
+            padding-left: 13px;
+            position: relative;
+        }
+        .article__detail-item:before{
+            display: block;
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 5px;
+            height: 5px;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3BpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpkODJjZDc1Yi0wYzRmLTQzZDMtYTQ0Ni04ZGQ2ZDYxNDcwOTIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDM3M0FCMDQ4NUVGMTFFNTlGMjNCQ0ZGNDU1MUU2QTciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDM3M0FCMDM4NUVGMTFFNTlGMjNCQ0ZGNDU1MUU2QTciIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowMzZDMEEwMzdDNzgxMUU1ODQ1MDk0MkQxRjdEQzQ3RiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowMzZDMEEwNDdDNzgxMUU1ODQ1MDk0MkQxRjdEQzQ3RiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Ps4lZ3cAAAAXSURBVHjaYkxLS2PADZgY8IKRKg0QYAB9iQFGaUkd0AAAAABJRU5ErkJggg==);
+            -webkit-background-size: 5px;
+            background-size: 5px;
+        }
+        .bottom__link{
+            padding-bottom: 40px;
+            text-align: center;
+        }
+        .bottom__link a{
+            font-size: 14px;
+            color: #576b95;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<ul class="article__list">
+    <li class="article__item">
+        <article>
+            <h2 class="article__title">一、如何通过？</h2>
+            <div class="article__content">
+                你在使用电视机。
+            </div>
+        </article>
+    </li>
+    <li>
+        <article>
+            <h2 class="article__title">二、如果没有直接怎么办？</h2>
+            <div class="article__content">
+                你可以尝试以下操作：
+                <ul class="article__detail-list">
+                    <li class="article__detail-item">
+                        从互动。
+                    </li>
+                    <li class="article__detail-item">
+                        更换。
+                    </li>
+                    <li class="article__detail-item">
+                        调整。
+                    </li>
+                </ul>
+            </div>
+        </article>
+    </li>
+</ul>
+<div class="bottom__link">
+    <a href="weixin://dl/feedback">意见反馈</a>
+</div>
+</body></html>
